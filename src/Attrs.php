@@ -25,7 +25,7 @@ class Attrs
      */
     public static function make($array = [])
     {
-        return new self($array);
+        return new static($array);
     }
 
     /**
