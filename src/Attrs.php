@@ -18,6 +18,17 @@ class Attrs
     }
 
     /**
+     * Make attributes.
+     * 
+     * @param array $array
+     * @return Attrs
+     */
+    public static function make($array = [])
+    {
+        return new Attrs($array);
+    }
+
+    /**
      * Get key attribute.
      * 
      * @param string $key
